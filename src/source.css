@@ -25,8 +25,8 @@
   --message-radius: 18px;
   --message-padding-top: 8px;
   --message-padding-side: 12px;
-  --main-textarea-color: var(--input-color);
-  --main-textarea-border: var(--input-border-color);
+  /* --main-textarea-color: var(--input-color);
+  --main-textarea-border: var(--input-border-color); */
   --main-textarea-radius: 24px;
   --media-radius: calc(var(--message-radius) / 1.75);
   --card-radius: 8px;
