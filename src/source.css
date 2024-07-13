@@ -24,8 +24,8 @@
   --message-radius: 18px;
   --message-padding-top: 8px;
   --message-padding-side: 12px;
-  /* --main-textarea-color: var(--input-color);
-  --main-textarea-border: var(--input-border-color); */
+  --main-textarea-color: var(--input-color);
+  --main-textarea-border: var(--input-border-color);
   --main-textarea-radius: 24px;
   --media-radius: calc(var(--message-radius) / 1.75);
   --card-radius: 8px;
@@ -85,6 +85,9 @@
   /* --message-color: hsl(216,7%,14%);
   --message-color-hover: hsl(216,7%,18%);
   --message-color-alt: hsl(216,7%,13%); */
+  --message-color: hsl(240,4%,16%);
+  --message-color-hover: hsl(240,4%,20%);
+  --message-color-alt: hsl(240,2%,22%);
   --attachment-color: hsl(216,7%,9%);
   --popout-color: hsl(214,7%,19%);
   --popout-color-alt: hsl(216,7%,14%);
@@ -6912,14 +6915,14 @@ div[role=radiogroup].group_e3c4bb {
 
 .wrapper_f9f2ca {
   position: relative;
-  /* background-color: var(--message-color) !important; */
+  background-color: var(--message-color) !important;
   transition: var(--default-time) var(--default-animation) background-color;
 }
 .wrapper_f9f2ca:hover {
   background-color: var(--message-color-hover) !important;
 }
 .wrapper_f9f2ca:hover .repliedMessage_f9f2ca:before {
-  /* border-color: var(--message-color-hover) !important; */
+  border-color: var(--message-color-hover) !important;
 }
 .wrapper_f9f2ca.automodMessage_d5deea:before {
   display: none;
