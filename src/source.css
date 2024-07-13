@@ -86,7 +86,6 @@
   /* --message-color: hsl(216,7%,14%);
   --message-color-hover: hsl(216,7%,18%);
   --message-color-alt: hsl(216,7%,13%); */
-  --message-color: var(--main-textarea-color);
   --attachment-color: hsl(216,7%,9%);
   --popout-color: hsl(214,7%,19%);
   --popout-color-alt: hsl(216,7%,14%);
