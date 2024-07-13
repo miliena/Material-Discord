@@ -6912,14 +6912,14 @@ div[role=radiogroup].group_e3c4bb {
 
 .wrapper_f9f2ca {
   position: relative;
-  background-color: var(--message-color) !important;
+  /* background-color: var(--message-color) !important; */
   transition: var(--default-time) var(--default-animation) background-color;
 }
 .wrapper_f9f2ca:hover {
   background-color: var(--message-color-hover) !important;
 }
 .wrapper_f9f2ca:hover .repliedMessage_f9f2ca:before {
-  border-color: var(--message-color-hover) !important;
+  /* border-color: var(--message-color-hover) !important; */
 }
 .wrapper_f9f2ca.automodMessage_d5deea:before {
   display: none;
